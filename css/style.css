@@ -122,7 +122,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+header nav a {
+  color: black;
+  margin: 2px auto;
+  text-decoration: none;
+}
 h5 {
   color: dodgerblue;
 }
-
