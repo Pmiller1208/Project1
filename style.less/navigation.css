@@ -1,5 +1,9 @@
+header {
+  color: white;
+  background: #66666e;
+}
 header nav a {
-  color: black;
+  color: white;
   margin: 2px auto;
   text-decoration: none;
 }
