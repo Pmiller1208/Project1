@@ -1,9 +1,32 @@
 header {
   color: white;
   background: #66666e;
+  padding: 0.5% 0;
 }
-header nav a {
+header h5 {
+  color: blue;
+}
+header section {
+  width: 60%;
+  margin: 0 auto;
+}
+header section div {
+  font-size: 1.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+header section div i {
   color: white;
-  margin: 2px auto;
+}
+header section nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+header section nav a {
+  color: white;
+  margin: 2px;
   text-decoration: none;
 }
