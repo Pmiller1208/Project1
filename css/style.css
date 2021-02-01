@@ -123,13 +123,26 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+a,
+h1,
+p,
+h4,
+h5,
+h6,
+i {
+  font-family: 'Rubik', sans-serif;
+}
+h6 {
+  color: black;
+  font-weight: bold;
+}
 header {
   color: white;
-  background: #66666e;
+  background: dodgerblue;
   padding: 0.5% 0;
+  width: 100%;
 }
 header section {
-  width: 60%;
   margin: 0 auto;
 }
 header section div {
@@ -151,4 +164,12 @@ header section nav a {
   color: white;
   margin: 2px;
   text-decoration: none;
+}
+h3 {
+  font-weight: bold;
+  color: #66666e;
+}
+h5 {
+  font-size: 1.8rem;
+  color: dodgerblue;
 }
